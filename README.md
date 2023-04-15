@@ -1,66 +1,36 @@
-![img](https://github.com/pragyy/datascience-readme-template/blob/main/Headerheader.jpg)
+![img](https://github.com/msherrif04/harry_potter_network/blob/web_scraping/cover.gif)
 
-# Project Title
-
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/pragyy/datascience-readme-template?include_prereleases)
-![GitHub last commit](https://img.shields.io/github/last-commit/pragyy/datascience-readme-template)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/pragyy/datascience-readme-template)
-![GitHub](https://img.shields.io/github/license/pragyy/datascience-readme-template)
-![contributors](https://img.shields.io/github/contributors/pragyy/datascience-readme-template) 
-![codesize](https://img.shields.io/github/languages/code-size/pragyy/datascience-readme-template) 
-
-> A guide to writing an amazing readme for your data science project.
-
-The project title should be concise and self-explanatory so that the user can easily remember your project.
-
-Add a cover banner to the top of your Readme to catch the attention of your readers.
-I usually include images that are relevant to my project, and you can easily find any image for free online without worrying about copyright issues. However, if the work is not free, make sure to credit the proper owners in the references/acknowledgement section.
-
-The colorful tiles beneath the title are known as badges, and they improve readability by providing quick insights into the github repository. I use [Shields IO](https://shields.io/). Depending on the project you can use the ones that are relevant. 
+# Analysis of networks in the harry potter universe
 
 # Project Overview
+The purpose of this project is to scrape data on the characters in the harry potter books and analyse the relationships and networks between the characters. 
 
-In this section you should provide a brief overview of the project, what it is about, and what it aims to achieve. This will help readers quickly understand what the project is all about.
-This project is a part of the [Data Science Working Group](http://datascience.codeforsanfrancisco.org) at [Code for San Francisco](http://www.codeforsanfrancisco.org).  Other DSWG projects can be found at the [main GitHub repo](https://github.com/sfbrigade/data-science-wg).
-The purpose of this project is ________. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
-
-# Installation and Setup
-
-In this section, provide detailed instructions on how to set up the project on a local machine. This includes any necessary dependencies, software requirements, and installation steps. Make sure to include clear and concise instructions so that others can easily replicate your setup.
-
-I like to structure it as below - 
 ## Methods Used
-* Inferential Statistics
-* Machine Learning
-* Data Visualization
-* Predictive Modeling
-* etc.
+* Data scraping and colleciton
+* Data cleaning
+* Data Preparation
+* Data visualisation
 
 ## Codes and Resources Used
 In this section I give user the necessary information about the software requirements.
-- **Editor Used:**  Informing the user of the editor used to produce the project.
-- **Python Version:** Informing the user of the version of python used for this project. If you are using some other language such as R, you can mention that as well.
+- **Editor Used:**  Visual Studio Code
+- **Python Version:** 3.11
+- **Selenium:** 4.8.3
 
 ## Python Packages Used
-In this section, I include all the necessary dependencies needed to reproduce the project, so that the reader can install them before replicating the project. I categorize the long list of packages used as - 
-- **General Purpose:** General purpose packages like `urllib, os, request`, and many more.
-- **Data Manipulation:** Packages used for handling and importing dataset such as `pandas, numpy` and others.
-- **Data Visualization:** Include packages which were used to plot graphs in the analysis or for understanding the ML modelling such as `seaborn, matplotlib` and others.
-- **Machine Learning:** This includes packages that were used to generate the ML model such as `scikit, tensorflow`, etc.
+This section contains all the necessary dependencies needed to reproduce this project
 
-The level of granularity you want to provide for the above list is entirely up to you. You can also add a few more levels, such as those for statistical analysis or data preparation, or you can simply incorporate them into the above list as is.
+- **Data scraping:** `selenium, webdriver-manager`
+- **Data Manipulation:** `pandas`
+- **Data Visualization:** `matplotlib`
+
 
 # Data
 
-The very crucial part of any data science project is dataset. Therefore list all the data sources used in the project, including links to the original data, descriptions of the data, and any pre-processing steps that were taken.
-
-I structure this as follows - 
-
 ## Source Data
-In this section, I list all of the data that was used, along with the source link and a few lines that describe each data. You can also explain each of the data attributes in greater detail if you wish.
-
-## Data Acquisition
-Data collection is not always as simple as downloading from Kaggle or any open source website; it can also be gathered through API calls or online scraping. So you can elaborate on this step in this section so that the reader can obtain the dataset by following your instructions.
+- **Cover Image:** https://raw.githubusercontent.com/DLWAwesome/harry-potter-spells/master/2005874_200x130.gif
+- **List of harry potter characters:** https://www.hp-lexicon.org/characters/
+- **Harry Potter books:** https://github.com/formcept/whiteboard/tree/master/nbviewer/notebooks/data/harrypotter
 
 ## Data Preprocessing
 Acquired data is not always squeaky clean, so preprocessing them are an integral part of any data analysis. In this section you can talk about the same.
