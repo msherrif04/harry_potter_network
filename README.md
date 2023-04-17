@@ -84,9 +84,6 @@ Outline potential future work that can be done to extend the project or improve 
 * Cover Image by [DWLAwesome](https://raw.githubusercontent.com/DLWAwesome/harry-potter-spells/master/2005874_200x130.gif)
 
 
-For instance, I am referencing the image that I used for my readme header - 
-- Image by [rashadashurov](https://www.vectorstock.com/royalty-free-vector/data-science-cartoon-template-with-flat-elements-vector-27984292)
-
 # License
 Specify the license under which your code is released. Moreover, provide the licenses associated with the dataset you are using. This is important for others to know if they want to use or contribute to your project. 
 
