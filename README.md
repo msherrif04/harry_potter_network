@@ -43,7 +43,8 @@ Here is the basic suggested skeleton for your data science repo (you can structu
 
 ```bash
 ├── LICENSE
-├── README.md        
+├── README.md    
+├── cover.gif  
 ├── data
 │   ├── external       
 │   ├── interim       
@@ -51,6 +52,10 @@ Here is the basic suggested skeleton for your data science repo (you can structu
 │   └── raw                    
 │
 ├── notebooks    
+│   ├── character_scraping.ipynb    
+│   ├── character_relations_data.ipynb    
+│   └── visualization.ipynb                    
+│
 │
 ├── reports            
 │   └── figures      
@@ -60,9 +65,12 @@ Here is the basic suggested skeleton for your data science repo (you can structu
 │   ├── __init__.py    
 │   │
 │   ├── data           
-│   │   └── make_dataset.py
+│   │   ├── make_dataset.py
+│   │   ├── extract_relationships.py  
+│   │   ├── scrape_characters.py
+│   │   └── functions.py
 │   │
-│   └── visualization  <- Scripts to create exploratory and results oriented visualizations
+│   └── visualization  
 │       └── visualize.py
 ```
 
