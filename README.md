@@ -29,7 +29,6 @@ This section contains all the necessary dependencies needed to reproduce this pr
 # Data
 
 ## Source Data
-- **Cover Image:** https://raw.githubusercontent.com/DLWAwesome/harry-potter-spells/master/2005874_200x130.gif
 - **List of harry potter characters:** https://www.hp-lexicon.org/characters/
 - **Harry Potter books:** https://github.com/formcept/whiteboard/tree/master/nbviewer/notebooks/data/harrypotter
 
@@ -82,6 +81,7 @@ Outline potential future work that can be done to extend the project or improve 
 
 # Acknowledgments/References
 * Idea by [Thu Vu](https://github.com/thu-vu92/the_witcher_network)
+* Cover Image by [DWLAwesome](https://raw.githubusercontent.com/DLWAwesome/harry-potter-spells/master/2005874_200x130.gif)
 
 
 For instance, I am referencing the image that I used for my readme header - 
