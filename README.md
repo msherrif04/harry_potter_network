@@ -11,6 +11,9 @@ The purpose of this project is to scrape data on the characters in the harry pot
 * Data Preparation
 * Data visualisation
 * Natural language processing
+* Network Analysis
+* Community Detection
+* Graph Analytics
 
 ## Codes and Resources Used
 - **Editor Used:**  Visual Studio Code
@@ -22,7 +25,7 @@ This section contains all the necessary dependencies needed to reproduce this pr
 
 - **Data scraping:** `selenium, webdriver-manager`
 - **Data Manipulation:** `pandas`
-- **Data Visualization:** `matplotlib`
+- **Data Visualization:** `matplotlib` `Networkx` `Pyvis`
 - **Natural Language processing:** `spacy.io`
 
 
@@ -31,9 +34,6 @@ This section contains all the necessary dependencies needed to reproduce this pr
 ## Source Data
 - **List of harry potter characters:** https://www.hp-lexicon.org/characters/
 - **Harry Potter books:** https://github.com/formcept/whiteboard/tree/master/nbviewer/notebooks/data/harrypotter
-
-## Data Preprocessing
-Acquired data is not always squeaky clean, so preprocessing them are an integral part of any data analysis. In this section you can talk about the same.
 
 # Code structure
 Explain the code structure and how it is organized, including any significant files and their purposes. This will help others understand how to navigate your project and find specific components. 
@@ -57,7 +57,11 @@ Here is the basic suggested skeleton for your data science repo (you can structu
 │
 │
 ├── reports            
-│   └── figures      
+│   │── figures   
+│   │   ├── Networks
+│   │   ├── Communities
+│   │   └── Screenshots
+│   └── Harry Potter Network report    
 │
 ├── requirements.txt  
 ├── src                
@@ -74,10 +78,29 @@ Here is the basic suggested skeleton for your data science repo (you can structu
 ```
 
 # Results and evaluation
-Provide an overview of the results of your project, including any relevant metrics and graphs. Include explanations of any evaluation methodologies and how they were used to assess the quality of the model. You can also make it appealing by including any pictures of your analysis or visualizations.
+## Important Characters
+The most important characters were measured by three metrics, degree centrality, closeness centrality and betweenness centrality. Harry, Ron, Hermoine and Dumbledore were consistently the most important characters across allt he 7 books.
+ ### Degree Centrality
+![Graph showing top 10 important characters by Degree Centrality ](reports/figures/Screenshots/Degree%20Centrality.png)
 
+### Closeness Centrality
+![Graph showing top 10 important characters by Closeness Centrality](reports/figures/Screenshots/Closeness%20Centrality.png)
+
+### Betweenness Centrality
+![Graph showing top 10 important characters by Betweenness Centrality](reports/figures/Screenshots/Betweenness%20Centrality.png)
+
+## Evolution of the importance of some characters across the 7 books
+![Graph showing the importance of Harry, Ron, Hermione, Dumbledore and Dobby across the 7 books](reports/figures/Screenshots/Temporal%20Evolution.png)
+
+## Network Map of the characters in the Harry Potter and the Philosophers Stone
+![Graph showing Network Map of the characters in the Harry Potter and the Philosophers Stone](reports/figures/Screenshots/Book1_networks.png)
+
+## Community detection with interactions from Harry Potter and the Philosophers Stone
+![Community detection with interactions from Harry Potter and the Philosophers Stone](reports/figures/Screenshots/Book1_communities.png)
+
+### 📘 **Detailed maps for each of the 7 books can be found in the reports folder**
 # Future work
-Outline potential future work that can be done to extend the project or improve its functionality. This will help others understand the scope of your project and identify areas where they can contribute.
+Our analysis represents only the tip of the iceberg of possibilities for applying data science to deep and meaningful literary analysis.
 
 # Acknowledgments/References
 * Idea by [Thu Vu](https://github.com/thu-vu92/the_witcher_network)
